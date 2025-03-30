@@ -1,12 +1,11 @@
 ---
+import Navbar from "../components/navbar.astro";
 import BaseStyle from "../layouts/BaseStyle.astro";
 
 let contact = {
-  email: "miguellopezrivera@icloud.com",
+  email: "miguellopezrivera[at]icloud[dot]com",
   company: "SHAW Data Security",
 };
-
-let mailto = "mailto:" + contact.email;
 ---
 
 <html lang="en">
@@ -14,10 +13,12 @@ let mailto = "mailto:" + contact.email;
   <h1>Let's chat</h1>
   <body>
     <p>
-      Reach out to me at <a href={mailto}>{contact.email}</a>.
+      Reach out to me at <u>{contact.email}</u>.
     </p>
     <p>
       I'm currently working at {contact.company}.
     </p>
   </body>
+
+  <Navbar />
 </html>
