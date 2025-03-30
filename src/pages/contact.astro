@@ -5,6 +5,7 @@ import BaseStyle from "../layouts/BaseStyle.astro";
 let contact = {
   email: "miguellopezrivera[at]icloud[dot]com",
   company: "SHAW Data Security",
+  linkedin: "https://www.linkedin.com/in/mlopezrivera/",
 };
 ---
 
@@ -18,6 +19,8 @@ let contact = {
     <p>
       I'm currently working at {contact.company}.
     </p>
+
+    <p>Connect on <a href={contact.linkedin}>LinkedIn</a></p>
   </body>
 
   <Navbar />
