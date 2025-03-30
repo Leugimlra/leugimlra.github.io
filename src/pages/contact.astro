@@ -1,0 +1,23 @@
+---
+import BaseStyle from "../layouts/BaseStyle.astro";
+
+let contact = {
+  email: "miguellopezrivera@icloud.com",
+  company: "SHAW Data Security",
+};
+
+let mailto = "mailto:" + contact.email;
+---
+
+<html lang="en">
+  <BaseStyle />
+  <h1>Let's chat</h1>
+  <body>
+    <p>
+      Reach out to me at <a href={mailto}>{contact.email}</a>.
+    </p>
+    <p>
+      I'm currently working at {contact.company}.
+    </p>
+  </body>
+</html>
