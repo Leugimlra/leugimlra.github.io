@@ -1,15 +1,17 @@
 ---
 import BaseStyle from "../layouts/BaseStyle.astro";
-import Navbar from "../components/navbar.astro";
+import Navbar from "../components/footer.astro";
 const name = "Miguel Lopez Rivera";
 ---
 
 <html lang="en">
   <BaseStyle />
-  <h1>{name}</h1>
   <body>
-    <p>Hi there! I'm a software engineer and ServiceNow developer.</p>
-  </body>
+    <main>
+      <h1>{name}</h1>
+      <p>Hi there! I'm a software engineer and ServiceNow developer.</p>
+    </main>
 
-  <Navbar />
+    <footer><Navbar /></footer>
+  </body>
 </html>
