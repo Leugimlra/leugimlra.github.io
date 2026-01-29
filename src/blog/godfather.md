@@ -16,6 +16,6 @@ It wasn't often that we saw a woman in this novel be something other than
 * A bystander
 * An object
 
-In so much that her position in life allowed her to, this is Mama Corleone showing pragmaticism. While men swore fealty to the Don through fear or respect, she had sworn it through vows. The former would protect him in this realm. The later would offer prayers in propitiation so he would be protected in the next.
+In so much that her position in life allowed her to, this is Mama Corleone showing pragmaticism. While men swore fealty to the Don through fear or respect, she had sworn it through vows. The former would protect him in this realm. The latter would offer prayers in propitiation so he would be protected in the next.
 
-This idea of absolution-by-proxy is revisited after Kay returns with Tom Hagan after having left Michael. 
+This idea of absolution-by-proxy is revisited after Kay returns with Tom Hagan after having left Michael. This is after the ending we see in the film: Kay, having realized the straight-faced lie Michael told her, leaves for New Hampshire with the children (she's had her second at this point). She commits to leaving 
