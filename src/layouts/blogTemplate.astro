@@ -1,0 +1,18 @@
+---
+// 1. The frontmatter prop gives access to frontmatter and other data
+const { frontmatter } = Astro.props;
+import BaseStyle from "../layouts/BaseStyle.astro";
+import Navbar from "../components/footer.astro";
+---
+
+<html>
+    <BaseStyle />
+
+    <h2>{frontmatter.title}</h2>
+    <h3>{frontmatter.date}</h3>
+
+    <body>
+        <!-- 2. Rendered HTML will be passed into the default slot. -->
+        <div style="padding: 20px;"> <slot /></div>
+    </body>
+</html>
