@@ -1,53 +1,59 @@
 ---
 import "@fontsource-variable/fira-code";
+import Navbar from "../components/footer.astro";
 ---
 
 <head>
-  <title>Miguel Lopez Rivera</title>
-  <style is:global>
-    html, body {
-      height: 100%;
-      margin: 1rem;
-      padding: 0;
-      background-color: #161717;
-      color: whitesmoke;
-      font-family: "Fira Code Variable", monospace;
-      font-size: 1.2rem;
-    }
+    <title>Miguel Lopez Rivera</title>
+    <style is:global>
+        html,
+        body {
+            height: 100%;
+            margin: 1rem;
+            padding: 0;
+            background-color: #161717;
+            color: whitesmoke;
+            font-family: "Fira Code Variable", monospace;
+            font-size: 1.2rem;
+        }
 
-    body {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
 
-    main {
-      flex: 1;
-    }
+        main {
+            flex: 1;
+        }
 
-    footer {
-      margin-top: auto;
-      padding: 1rem;
-      text-align: center;
-    }
+        footer {
+            margin-top: auto;
+            padding: 1rem;
+            text-align: center;
+        }
 
-    p,
-    li,
-    span {
-      font-size: 1rem;
-    }
+        p,
+        li,
+        span {
+            font-size: 1rem;
+        }
 
-    a:any-link {
-      color: #81b622 !important;
-    }
+        a:any-link {
+            color: #81b622 !important;
+        }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-weight: bold;
-    }
-  </style>
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="utf-8" />
 </head>
+
+<h1>Miguel Lopez Rivera</h1>
+<header><Navbar /></header>

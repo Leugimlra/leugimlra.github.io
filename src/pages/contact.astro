@@ -3,25 +3,29 @@ import Navbar from "../components/footer.astro";
 import BaseStyle from "../layouts/BaseStyle.astro";
 
 let contact = {
-  email: "miguellopezrivera[at]icloud[dot]com",
-  company: "SHAW Data Security",
-  linkedin: "https://www.linkedin.com/in/mlopezrivera/",
+    email: "miguellopezrivera[at]icloud[dot]com",
+    company: "SHAW Data Security",
+    companyWebsite: "https://www.shawdatasecurity.com",
+    linkedin: "https://www.linkedin.com/in/mlopezrivera/",
 };
 ---
 
 <html lang="en">
-  <BaseStyle />
-  <h1>Let's chat</h1>
-  <body>
-    <p>
-      Reach out to me at <u>{contact.email}</u>.
-    </p>
-    <p>
-      I'm currently working at {contact.company}.
-    </p>
+    <BaseStyle />
 
-    <p>Connect on <a href={contact.linkedin}>LinkedIn</a></p>
-  </body>
+    <body>
+        <main>
+            <h3>Let's chat</h3>
+            <p>
+                Reach out to me at <u>{contact.email}</u>.
+            </p>
+            <p>
+                I'm currently working at <a href={contact.companyWebsite}
+                    >{contact.company}</a
+                >.
+            </p>
 
-  <footer><Navbar /></footer>
+            <p>Connect on <a href={contact.linkedin}>LinkedIn</a></p>
+        </main>
+    </body>
 </html>
